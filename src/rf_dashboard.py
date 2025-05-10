@@ -10,6 +10,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 import streamlit as st
 import matplotlib.pyplot as plt
 
+
+
 # Load data
 @st.cache_data
 def load_data():
